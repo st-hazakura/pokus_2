@@ -119,6 +119,6 @@ if st.button("Save Text"):
         file_path = os.path.join(directory, f"{title}.txt")
         with open(file_path, "w") as file:
             file.write(st.session_state['text'])
-        st.success(f"Text saved successfully!")
+        st.success(f"Text saved successfully at Records!")
     else:
         st.error("Please provide both a title and text.")

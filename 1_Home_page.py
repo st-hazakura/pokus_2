@@ -5,7 +5,6 @@ import base64
 import json
 from configure import auth_key
 import os
-
 import pyaudio
 
 st.set_page_config(page_title="Bibup", initial_sidebar_state="collapsed")

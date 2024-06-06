@@ -7,6 +7,7 @@ from configure import auth_key
 import os
 import pyaudio
 
+#bibup
 st.set_page_config(page_title="Bibup", initial_sidebar_state="collapsed")
 
 if 'text' not in st.session_state: # 1. инициализация сессии, если нет переменных то создаст
